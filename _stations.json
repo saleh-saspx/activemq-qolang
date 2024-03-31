@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "name": "لار",
+        "abbr": "LAR",
+        "region": "استان مازندران- شهرستان آمل- بخش لاریجان",
+        "lat": 35.123,
+        "lng": 52.456,
+        "alt": 1234,
+        "sensorSerial": "11111",
+        "digitizerSerial": "2222",
+        "gpsSerial": "1111",
+        "connection": "radio",
+        "deleted_at": null,
+        "analysisParams": {
+            "dcMinutes": 15,
+            "fields": [
+                {
+                    "title": "backupV",
+                    "min": 2.5,
+                    "max": 3.5
+                },
+                {
+                    "title": "minV",
+                    "min": 12,
+                    "max": 14
+                },
+                {
+                    "title": "PGA",
+                    "min": 0,
+                    "max": 1000
+                },
+                {
+                    "title": "PGD",
+                    "min": 0,
+                    "max": 1000
+                }
+            ]
+        }
+    }
+]
